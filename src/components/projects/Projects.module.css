@@ -28,15 +28,15 @@
 }
 
 .projectList img {
-  max-width: 15rem;
+  max-width: 25rem;
   border-radius: 0.5rem;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 61rem) {
   .projectList {
     grid-template-columns: auto;
   }
-  .projectList img {
-    max-width: 25rem;
-  }
+  /* .projectList img {
+     max-width: 25rem;
+  } */
 }
