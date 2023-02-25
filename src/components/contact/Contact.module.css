@@ -1,0 +1,27 @@
+.contact {
+  background-color: #111827;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 5rem 2rem;
+  gap: 1.5rem;
+  
+}
+.contact a{
+  text-decoration: none;
+  color: white;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #1f2937;
+  padding: 1rem;
+  border-radius: 1rem;
+  color:#6872C9;
+  gap: 1rem;
+  min-width: 20rem;
+}
