@@ -36,7 +36,16 @@
   .projectList {
     grid-template-columns: auto;
   }
-  /* .projectList img {
-     max-width: 25rem;
-  } */
+  .projectList img {
+    max-width: 15rem;
+  }
+}
+
+@media (max-width: 32rem) {
+  .projectList {
+    grid-template-columns: auto;
+  }
+  .projectList img {
+    max-width: 10rem;
+  }
 }
