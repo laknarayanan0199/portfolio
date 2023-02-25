@@ -55,8 +55,8 @@ export default function Projects() {
             <div>
               <img alt="gallery" src={project.image} />
               <div>
-                <h2>{project.subtitle}</h2>
                 <h1>{project.title}</h1>
+                <h2>{project.subtitle}</h2>
                 <p></p>
               </div>
             </div>

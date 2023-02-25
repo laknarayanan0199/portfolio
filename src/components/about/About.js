@@ -11,8 +11,9 @@ export default function About() {
         <h3>I am Frontend Developer.</h3>
         <p>
           As a Software Engineer with expertise in versatile technologies
-          involving in Front-end developer and I created successful applications
-          that are Fast, Easy to use, Responsive and built with best practices.
+          involving in Front-end developement and I created successful
+          applications that are Fast, Easy to use, Responsive and built with
+          best practices.
         </p>
         <div className={classes.details}>
           <a href="#contact">Get In Touch</a>
