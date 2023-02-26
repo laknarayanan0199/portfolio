@@ -37,11 +37,14 @@
     grid-template-columns: auto;
   }
   .projectList img {
-    max-width: 15rem;
+    max-width: 20rem;
   }
 }
 
 @media (max-width: 32rem) {
+  .projects {
+    padding: 5rem 1rem;
+  }
   .projectList {
     grid-template-columns: auto;
   }

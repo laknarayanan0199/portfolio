@@ -7,9 +7,8 @@
   color: white;
   padding: 5rem 2rem;
   gap: 1.5rem;
-  
 }
-.contact a{
+.contact a {
   text-decoration: none;
   color: white;
 }
@@ -21,7 +20,14 @@
   background-color: #1f2937;
   padding: 1rem;
   border-radius: 1rem;
-  color:#6872C9;
+  color: #6872c9;
   gap: 1rem;
   min-width: 20rem;
+}
+
+@media (max-width: 32rem) {
+  .contactInfo {
+    min-width: 10rem;
+    padding: 0.5rem;
+  }
 }
