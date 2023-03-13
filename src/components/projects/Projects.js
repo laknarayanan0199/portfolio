@@ -4,14 +4,21 @@ import classes from "./Projects.module.css";
 import shopify from "../../assests/images/shopify.png";
 import combat from "../../assests/images/combat.png";
 import RPS from "../../assests/images/RPS.png";
-import calculator from "../../assests/images/calc.png";
+import netflix from "../../assests/images/netflix.png";
 
 export default function Projects() {
   const projects = [
     {
+      title: "Netflix-Clone",
+      subtitle: "React, Redux-Toolkit",
+      description: "A collection of movies and series to binge-watch.",
+      image: netflix,
+      link: "https://main.d287goabfvurwf.amplifyapp.com/",
+    },
+    {
       title: "Shopify",
       subtitle: "React, Redux-Toolkit",
-      description: "A shopping app where you can get all your needs",
+      description: "A shopping app where you can get all your needs.",
       image: shopify,
       link: "https://shopers-stop.netlify.app/",
     },
@@ -26,16 +33,9 @@ export default function Projects() {
       title: "Rock Paper, Scissor",
       subtitle: "HTML, CSS, Javascript",
       description:
-        "A game where user can select the user choice as ROCK, PAPER, SCISSOR",
+        "A game where user can select the user choice as ROCK, PAPER, SCISSOR.",
       image: RPS,
       link: "https://laknarayanan0199.github.io/Rock-Paper-Scissors/",
-    },
-    {
-      title: "A Simple Calculator",
-      subtitle: "HTML, CSS, Javascript",
-      description: "A place where all of your calculations ends",
-      image: calculator,
-      link: "https://laknarayanan0199.github.io/calculator/",
     },
   ];
 
@@ -46,8 +46,6 @@ export default function Projects() {
           <CodeBracketIcon />
         </div>
         <h1>Apps I've Built</h1>
-        {/* <p>
-        </p> */}
       </div>
       <div className={classes.projectList}>
         {projects.map((project) => (
