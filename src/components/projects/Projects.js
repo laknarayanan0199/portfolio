@@ -16,7 +16,7 @@ export default function Projects() {
       link: "https://main.d287goabfvurwf.amplifyapp.com/",
     },
     {
-      title: "Shopify",
+      title: "Shopers Stop",
       subtitle: "React, Redux-Toolkit",
       description: "A shopping app where you can get all your needs.",
       image: shopify,
