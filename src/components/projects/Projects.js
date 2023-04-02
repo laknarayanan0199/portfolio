@@ -3,7 +3,7 @@ import React from "react";
 import classes from "./Projects.module.css";
 import shopify from "../../assests/images/shopify.png";
 import combat from "../../assests/images/combat.png";
-import RPS from "../../assests/images/RPS.png";
+import vidPlay from "../../assests/images/vidplay.png";
 import netflix from "../../assests/images/netflix.png";
 
 export default function Projects() {
@@ -14,6 +14,14 @@ export default function Projects() {
       description: "A collection of movies and series to binge-watch.",
       image: netflix,
       link: "https://main.d287goabfvurwf.amplifyapp.com/",
+    },
+    {
+      title: "VidPlay",
+      subtitle: "React, RTK Query",
+      description:
+        "A video player where you can add your favorite videos from youtube",
+      image: vidPlay,
+      link: "https://main.d279zoms28kie6.amplifyapp.com/",
     },
     {
       title: "Shopers Stop",
@@ -28,14 +36,6 @@ export default function Projects() {
       description: "Fight between player and monster",
       image: combat,
       link: "https://laknarayanan0199.github.io/Combat/",
-    },
-    {
-      title: "Rock Paper, Scissor",
-      subtitle: "HTML, CSS, Javascript",
-      description:
-        "A game where user can select the user choice as ROCK, PAPER, SCISSOR.",
-      image: RPS,
-      link: "https://laknarayanan0199.github.io/Rock-Paper-Scissors/",
     },
   ];
 
